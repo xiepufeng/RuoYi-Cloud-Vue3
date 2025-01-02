@@ -43,6 +43,7 @@ function addIframe() {
 }
 
 .fixed-header + .app-main {
+  min-height: 100vh;
   padding-top: 50px;
 }
 
@@ -53,6 +54,7 @@ function addIframe() {
   }
 
   .fixed-header + .app-main {
+    min-height: 100vh;
     padding-top: 84px;
   }
 }
@@ -80,4 +82,3 @@ function addIframe() {
   border-radius: 3px;
 }
 </style>
-
